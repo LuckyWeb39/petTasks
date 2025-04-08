@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/petTasks/static/css/main.073c9b0a.css",
-    "main.js": "/petTasks/static/js/main.312dba99.js",
+    "main.js": "/petTasks/static/js/main.006153ed.js",
     "static/js/787.177e23c2.chunk.js": "/petTasks/static/js/787.177e23c2.chunk.js",
     "index.html": "/petTasks/index.html",
     "main.073c9b0a.css.map": "/petTasks/static/css/main.073c9b0a.css.map",
-    "main.312dba99.js.map": "/petTasks/static/js/main.312dba99.js.map",
+    "main.006153ed.js.map": "/petTasks/static/js/main.006153ed.js.map",
     "787.177e23c2.chunk.js.map": "/petTasks/static/js/787.177e23c2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.312dba99.js"
+    "static/js/main.006153ed.js"
   ]
 }
