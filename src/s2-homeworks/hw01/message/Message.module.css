@@ -1,31 +1,54 @@
 .message {
-
+    margin: 10px;
+    max-width: 100%;
 }
 
 .imageAndText {
-
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    gap: 10px;
 }
 
 .imageAndText img {
-
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
 }
 
 .text {
+    background-color: #0066cc;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: -6px 6px 4px -5px rgba(34, 60, 80, 0.2);
+    max-width: 80%;
+    height: 100%;
 
 }
+
 
 .text:after {
 
 }
 
 .name {
-
+    font-weight: bold;
+    font-size: 18px;
+    justify-self: flex-end;
 }
 
 .messageText {
-
+    font-size: 16px;
+    white-space: normal;
 }
 
 .time {
+    font-weight: bold;
+    font-size: 10px;
+    align-self: flex-end;
+    justify-self: flex-end;
+    margin-top: 3px;
+    margin-right: 10px;
 
 }
