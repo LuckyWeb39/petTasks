@@ -1,26 +1,34 @@
-import React from 'react'
+import React, {Dispatch, SetStateAction} from 'react'
 import Affair from './affair/Affair'
 import {AffairType, FilterType} from '../HW2'
 import s from './Affairs.module.css'
-
+import affair from "./affair/Affair";
+// в файле Affairs.tsx дописать типизацию пропсов
+// * 8 - в файле Affairs.tsx дописать логику функций setAll, setHigh, setMiddle, setLow
+// * 9 - в файле Affair.tsx дописать типизацию пропсов
+// * 10 - в файле Affair.tsx дописать функции deleteCallback и использовать
+// * 11 - в файле Affair.tsx отобразить приходящие данные
 type AffairsPropsType = {
-    data: any // need to fix any
-    setFilter: any
-    deleteAffairCallback: any
+    data: AffairType[] // need to fix any
+    setFilter: Dispatch<SetStateAction<FilterType>>
+    deleteAffairCallback: (_id: number) => void
     filter: FilterType
 }
 
 function Affairs(props: AffairsPropsType) {
     const setAll = () => {
-        // need to fix
+        props.setFilter('all')
     }
     const setHigh = () => {
+        props.setFilter('high')
         // need to fix
     }
     const setMiddle = () => {
+        props.setFilter('middle')
         // need to fix
     }
     const setLow = () => {
+        props.setFilter('low')
         // need to fix
     }
 
