@@ -2,19 +2,30 @@
 }
 
 .input {
+    width: 350px;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .inputWrapper {
 }
 
 .superInput {
+
 }
 
 .errorInput {
+    border: 1px solid red;
+    outline: none;
 }
 
 .errorInput:focus {
+    border: 2px solid red;
 }
 
 .error {
+    color: red;
+    position: relative;
+    top: -30px;
+    right: 340px;
 }
